@@ -1,10 +1,10 @@
 # python项目－－外星人入侵
-"""
-所用python版本:python3
-"""
 
-## 武装飞船
-### 安装pygame
+> 所用python版本:python3
+> 所用系统为Linux系统
+
+**首先需要提前安装好pygame，才能执行代码**
+## 安装pygame
 ```python
 # 首先查看是否安装pip
 $ pip --version # 如果没有输出相关版本信息就需要安装
@@ -23,13 +23,9 @@ $ cd pygame && python3 setup.py build
 $ sudo python3 setup.py install
 ```
 
+## 测试是否安装成功
 ```python
-# 测试是否安装成功
 $ python3
 >>> import pygame
 # 如果没有报错则表示成功，出错则表示失败
 ```
-
-### 开始游戏项目
-
-https://ehmatthes.github.io/pcc/solutions/README.html
